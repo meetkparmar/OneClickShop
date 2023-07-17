@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">OneClickShop</string>
+    <string name="loading">Loading...</string>
+    <string name="search_product">Search Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_type">Product Type</string>
+    <string name="price">Price</string>
+    <string name="taxes">Taxes(in %)</string>
+    <string name="add_product">Add Product</string>
+    <string name="add_image">Add Image</string>
+    <string name="product_type_detail">Type - %1$s</string>
+    <string name="total">Total - ₹%1$s</string>
+    <string name="congratulations_text">"Congratulations!\nProduct added Successfully."</string>
+    <string name="empty_field_error">Please fill all the fields.</string>
 </resources>

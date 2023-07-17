@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/products_list_fragment">
+
+    <fragment
+        android:id="@+id/products_list_fragment"
+        android:name="com.meet.project.oneclickshop.ui.fragments.ProductsListFragment"
+        android:label="ProductsListFragment"
+        tools:layout="@layout/compose_fragment">
+
+        <action
+            android:id="@+id/action_to_add_products_fragment"
+            app:destination="@id/add_products_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/add_products_fragment"
+        android:name="com.meet.project.oneclickshop.ui.fragments.AddProductFragment"
+        android:label="AddProductFragment"
+        tools:layout="@layout/compose_fragment" />
+
+</navigation>
